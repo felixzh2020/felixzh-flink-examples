@@ -64,7 +64,7 @@ public class KafkaFlinkKafka {
                 return System.currentTimeMillis() + ":" + value;
             }
         });*/
-        DataStream<String> output = input.map(value -> (System.currentTimeMillis() + ":" + value));
+        DataStream<String> output = input.map(value -> (System.currentTimeMillis() + ":" + value)).setParallelism(3);
 
         //6. 输出DataStream
         FlinkKafkaProducer010 kafkaSink = new FlinkKafkaProducer010<>(
@@ -75,7 +75,7 @@ public class KafkaFlinkKafka {
         kafkaSink.setFlushOnCheckpoint(true);
         kafkaSink.setLogFailuresOnly(false);
         kafkaSink.setWriteTimestampToKafka(true);
-        output.addSink(kafkaSink);
+        output.addSink(kafkaSink).setParallelism(3);
 
         //7. 调用execute
         env.execute("Kafka Flink Kafka UseCase");
