@@ -8,12 +8,12 @@ import org.apache.flink.configuration.Configuration;
 import java.util.Collection;
 
 /**
- * @ClassName broadCast
+ * @ClassName BroadCast
  * @Description 广播变量案例
  * @Author felixzh
  * @Date 2018/12/24 13:50
  **/
-public class broadCast {
+public class BroadCast {
     public static void main(String []args) throws Exception{
         final ExecutionEnvironment env = ExecutionEnvironment.getExecutionEnvironment();
 
