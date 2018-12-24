@@ -49,7 +49,7 @@ public class KafkaFlinkKafka {
         Properties kafkaProducerPros = new Properties();
         kafkaProducerPros.setProperty("bootstrap.servers", parameterTool.getRequired("bootstrap.servers"));
 
-        //4. 输入DataStream
+        //4. 输入DataStream：消费的kafka topic并行度要与kafka partition数目相等
         DataStream<String> input = env
                 .addSource(
                         new FlinkKafkaConsumer010<>(
@@ -66,7 +66,7 @@ public class KafkaFlinkKafka {
         });*/
         DataStream<String> output = input.map(value -> (System.currentTimeMillis() + ":" + value)).setParallelism(3);
 
-        //6. 输出DataStream
+        //6. 输出DataStream：生产的kafka topic并行度要与kafka partition数目相等
         FlinkKafkaProducer010 kafkaSink = new FlinkKafkaProducer010<>(
                 parameterTool.getRequired("output-topic"),
                 new SimpleStringSchema(),
