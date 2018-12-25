@@ -9,7 +9,7 @@ import java.util.Collection;
 
 /**
  * @ClassName BroadCast
- * @Description 广播变量案例
+ * @Description 基于DataSetAPI广播变量案例
  * @Author felixzh
  * @Date 2018/12/24 13:50
  **/
