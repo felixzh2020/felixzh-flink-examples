@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4bad727d-ce90-49b7-893e-eeadef47cdab" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/flink-examples-batch/src/main/java/org/apache/flink/examples/java/broadcast/BroadCast.java" beforeDir="false" afterPath="$PROJECT_DIR$/flink-examples-batch/src/main/java/org/apache/flink/examples/java/broadcast/BroadCast.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/flink-examples-streaming/target/" />
     <ignored path="$PROJECT_DIR$/flink-examples-batch/target/" />
@@ -18,16 +18,17 @@
     <session id="1802571453">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.18" value="1" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="8" />
-          <entry key="java" value="26" />
+          <entry key="java" value="28" />
           <entry key="md" value="1" />
           <entry key="scala" value="2" />
           <entry key="xml" value="7" />
@@ -36,7 +37,7 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="8" />
-          <entry key="JAVA" value="26" />
+          <entry key="JAVA" value="28" />
           <entry key="Markdown" value="1" />
           <entry key="Scala" value="2" />
           <entry key="XML" value="7" />
@@ -63,12 +64,12 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/flink-examples-streaming/src/main/java/org/apache/flink/streaming/examples/broadcast/BroadCast.java">
+        <entry file="file://$PROJECT_DIR$/flink-examples-batch/src/main/java/org/apache/flink/examples/java/broadcast/BroadCast.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="14" column="39" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
+            <state relative-caret-position="550">
+              <caret line="22" column="58" lean-forward="true" selection-start-line="22" selection-start-column="58" selection-end-line="22" selection-end-column="58" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -77,10 +78,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/flink-examples-batch/src/main/java/org/apache/flink/examples/java/broadcast/BroadCast.java">
+        <entry file="file://$PROJECT_DIR$/flink-examples-streaming/src/main/java/org/apache/flink/streaming/examples/kafka/KafkaFlinkKafka.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="17" column="8" lean-forward="true" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
+            <state relative-caret-position="997">
+              <caret line="74" column="45" lean-forward="true" selection-start-line="74" selection-start-column="45" selection-end-line="74" selection-end-column="45" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -157,8 +158,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -177,102 +178,6 @@
               <item name="flink-examples-batch" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="flink-examples" type="b2602c69:ProjectViewProjectNode" />
-              <item name="felixzhFlinkExamples" type="462c0819:PsiDirectoryNode" />
-              <item name="flink-examples-batch" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="flink-examples" type="b2602c69:ProjectViewProjectNode" />
-              <item name="felixzhFlinkExamples" type="462c0819:PsiDirectoryNode" />
-              <item name="flink-examples-batch" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="flink-examples" type="b2602c69:ProjectViewProjectNode" />
-              <item name="felixzhFlinkExamples" type="462c0819:PsiDirectoryNode" />
-              <item name="flink-examples-batch" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="flink-examples" type="b2602c69:ProjectViewProjectNode" />
-              <item name="felixzhFlinkExamples" type="462c0819:PsiDirectoryNode" />
-              <item name="flink-examples-batch" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="broadcast" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="flink-examples" type="b2602c69:ProjectViewProjectNode" />
-              <item name="felixzhFlinkExamples" type="462c0819:PsiDirectoryNode" />
-              <item name="flink-examples-streaming" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="flink-examples" type="b2602c69:ProjectViewProjectNode" />
-              <item name="felixzhFlinkExamples" type="462c0819:PsiDirectoryNode" />
-              <item name="flink-examples-streaming" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="flink-examples" type="b2602c69:ProjectViewProjectNode" />
-              <item name="felixzhFlinkExamples" type="462c0819:PsiDirectoryNode" />
-              <item name="flink-examples-streaming" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="flink-examples" type="b2602c69:ProjectViewProjectNode" />
-              <item name="felixzhFlinkExamples" type="462c0819:PsiDirectoryNode" />
-              <item name="flink-examples-streaming" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="flink-examples" type="b2602c69:ProjectViewProjectNode" />
-              <item name="felixzhFlinkExamples" type="462c0819:PsiDirectoryNode" />
-              <item name="flink-examples-streaming" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="examples" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="flink-examples" type="b2602c69:ProjectViewProjectNode" />
-              <item name="felixzhFlinkExamples" type="462c0819:PsiDirectoryNode" />
-              <item name="flink-examples-streaming" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="flink-examples" type="b2602c69:ProjectViewProjectNode" />
-              <item name="felixzhFlinkExamples" type="462c0819:PsiDirectoryNode" />
-              <item name="flink-examples-streaming" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="examples" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="flink-examples" type="b2602c69:ProjectViewProjectNode" />
-              <item name="felixzhFlinkExamples" type="462c0819:PsiDirectoryNode" />
-              <item name="flink-examples-streaming" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="examples" type="462c0819:PsiDirectoryNode" />
-              <item name="kafka" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -282,7 +187,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545706038978" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545706951273" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../flink-release-1.6.0" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -303,7 +208,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.broadCastTest">
     <configuration name="BroadCast" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.apache.flink.examples.java.broadcast.BroadCast" />
       <module name="flink-examples-batch" />
@@ -357,6 +262,7 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.broadCastTest" />
       <item itemvalue="Application.WordCount" />
       <item itemvalue="Application.WordCount (1)" />
       <item itemvalue="Application.BroadCast" />
@@ -389,18 +295,18 @@
       <option name="presentableId" value="Default" />
       <updated>1545470056536</updated>
       <workItem from="1545470060687" duration="589000" />
-      <workItem from="1545470665547" duration="21088000" />
+      <workItem from="1545470665547" duration="21094000" />
+      <workItem from="1545723901832" duration="1423000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21677000" />
+    <option name="totallyTimeSpent" value="23106000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25266525" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2553305" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -491,10 +397,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="197">
           <caret line="202" column="25" selection-start-line="202" selection-start-column="25" selection-end-line="202" selection-end-column="25" />
-          <folding>
-            <element signature="e#10214#10215#0" expanded="true" />
-            <element signature="e#10287#10288#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -533,23 +435,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="824">
           <caret line="87" column="24" selection-start-line="87" selection-start-column="19" selection-end-line="87" selection-end-column="24" />
-          <folding>
-            <element signature="e#0#4131#0" expanded="true" />
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/flink-examples-batch/src/main/java/org/apache/flink/examples/java/broadcast/broadCastTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="38" column="22" lean-forward="true" selection-start-line="15" selection-start-column="8" selection-end-line="38" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/flink-examples-batch/src/main/java/org/apache/flink/examples/java/broadcast/broadCastTest.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-java/1.6.0/flink-java-1.6.0.jar!/org/apache/flink/api/java/DataSet.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="197">
@@ -596,10 +485,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="298">
           <caret line="498" column="21" selection-start-line="498" selection-start-column="21" selection-end-line="498" selection-end-column="21" />
-          <folding>
-            <element signature="e#21641#21642#0" expanded="true" />
-            <element signature="e#21684#21685#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -634,10 +519,11 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/flink-examples-streaming/src/main/java/org/apache/flink/streaming/examples/broadcast/BroadCast.java" />
     <entry file="file://$PROJECT_DIR$/flink-examples-streaming/src/main/java/org/apache/flink/streaming/examples/kafka/KafkaFlinkKafka.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="347">
-          <caret line="66" column="33" selection-start-line="66" selection-start-column="27" selection-end-line="66" selection-end-column="33" />
+        <state relative-caret-position="997">
+          <caret line="74" column="45" lean-forward="true" selection-start-line="74" selection-start-column="45" selection-end-line="74" selection-end-column="45" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -646,18 +532,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/flink-examples-batch/src/main/java/org/apache/flink/examples/java/broadcast/BroadCast.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="17" column="8" lean-forward="true" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/flink-examples-streaming/src/main/java/org/apache/flink/streaming/examples/broadcast/BroadCast.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="14" column="39" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
+        <state relative-caret-position="550">
+          <caret line="22" column="58" lean-forward="true" selection-start-line="22" selection-start-column="58" selection-end-line="22" selection-end-column="58" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
