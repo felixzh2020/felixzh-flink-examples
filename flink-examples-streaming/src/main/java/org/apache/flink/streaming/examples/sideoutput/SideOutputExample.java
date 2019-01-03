@@ -25,7 +25,7 @@ import org.apache.flink.streaming.api.TimeCharacteristic;
 import org.apache.flink.streaming.api.datastream.DataStream;
 import org.apache.flink.streaming.api.datastream.SingleOutputStreamOperator;
 import org.apache.flink.streaming.api.environment.StreamExecutionEnvironment;
-import org.apache.flink.streaming.api.functions.ProcessFunction;
+import org.apache.flink.streaming.api.functions.KeyedProcessFunction;
 import org.apache.flink.streaming.api.windowing.assigners.TumblingEventTimeWindows;
 import org.apache.flink.streaming.api.windowing.time.Time;
 import org.apache.flink.streaming.examples.wordcount.util.WordCountData;
@@ -81,7 +81,7 @@ public class SideOutputExample {
 						return 0;
 					}
 				})
-				.process(new Tokenizer());
+				.process(new MyTokenizer());
 
 		DataStream<String> rejectedWords = tokenized
 				.getSideOutput(rejectedWordsTag)
@@ -114,26 +114,19 @@ public class SideOutputExample {
 		env.execute("Streaming WordCount SideOutput");
 	}
 
-	// *************************************************************************
-	// USER FUNCTIONS
-	// *************************************************************************
-
 	/**
 	 * Implements the string tokenizer that splits sentences into words as a
 	 * user-defined FlatMapFunction. The function takes a line (String) and
 	 * splits it into multiple pairs in the form of "(word,1)" ({@code Tuple2<String,
 	 * Integer>}).
-	 *
+	 * 注意：KeyedProcessFunction里面key的数据类型要与获取KeyedStream的keyBy中的key相同
 	 * <p>This rejects words that are longer than 5 characters long.
 	 */
-	public static final class Tokenizer extends ProcessFunction<String, Tuple2<String, Integer>> {
+	public static final class MyTokenizer extends KeyedProcessFunction<Integer, String, Tuple2<String, Integer>> {
 		private static final long serialVersionUID = 1L;
 
 		@Override
-		public void processElement(
-				String value,
-				Context ctx,
-				Collector<Tuple2<String, Integer>> out) throws Exception {
+		public void processElement(String value, Context ctx, Collector<Tuple2<String, Integer>> out) throws Exception {
 			// normalize and split the line
 			String[] tokens = value.toLowerCase().split("\\W+");
 
@@ -145,7 +138,6 @@ public class SideOutputExample {
 					out.collect(new Tuple2<>(token, 1));
 				}
 			}
-
 		}
 	}
 }
