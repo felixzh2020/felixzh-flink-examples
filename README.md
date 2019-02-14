@@ -8,9 +8,8 @@
 Java、Scala、Maven、Git。
 
 # 编译、打包、运行
-由于项目结构直接沿用Flink源码中flink-examples工程结构，为避免可能的依赖问题，务必使用如下命令进行编译、打包：
+可以直接使用命令运行编译、打包的jar，或者在idea直接运行项目。由于项目结构直接沿用Flink源码中flink-examples工程结构，为避免可能的依赖问题，务必使用如下命令进行编译、打包：
 mvn clean package -DskipTests -Dfast
-注：可以直接使用命令运行jar，或者在idea直接运行
 
 # 微信公众号
 
