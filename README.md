@@ -11,6 +11,12 @@ Java、Scala、Maven、Git。
 可以直接使用命令运行编译、打包的jar，或者在idea直接运行项目。由于项目结构直接沿用Flink源码中flink-examples工程结构，为避免可能的依赖问题，务必使用如下命令进行编译、打包：
 mvn clean package -DskipTests -Dfast
 
+# 功能列表(Flink官方目前未支持的)
+
+1. 基于DataSet API使用广播变量
+2. KafkaFlinkKafka案例
+
+
 # 微信公众号
 
 欢迎关注微信公众号(大数据从业者)，期待共同交流沟通、共同成长！
