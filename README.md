@@ -14,9 +14,9 @@ mvn clean package -DskipTests -Dfast
 # 新增功能列表
 
 1. 基于DataSet API使用广播变量
-https://github.com/felixzh2015/felixzhFlinkExamples/tree/master/flink-examples-batch/src/main/java/org/apache/flink/examples/java/broadcast
+https://github.com/felixzh2015/felixzh-flink-examples/tree/master/flink-examples-batch/src/main/java/org/apache/flink/examples/java/broadcast
 2. KafkaFlinkKafka案例
-https://github.com/felixzh2015/felixzhFlinkExamples/tree/master/flink-examples-streaming/src/main/java/org/apache/flink/streaming/examples/kafka
+https://github.com/felixzh2015/felixzh-flink-examples/tree/master/flink-examples-streaming/src/main/java/org/apache/flink/streaming/examples/kafka
 
 
 # 微信公众号
